@@ -1,0 +1,16 @@
+utils\AccessContext.class
+pages\SignUpElements.class
+pages\ArticlePageElements.class
+runners\TestRunner.class
+stepdefinitions\SignUpStepDefinitions.class
+stepdefinitions\CategoriesArticlesStepDefinitions.class
+stepdefinitions\CartPageStepDefinitions.class
+pages\LogInElements.class
+stepdefinitions\LogInStepDefinitions.class
+utils\PlaceOrderContext.class
+pages\CartPageElements.class
+utils\CsvDataLoader.class
+stepdefinitions\ArticlePageStepDefinitions.class
+pages\CategoriesArticlesElements.class
+stepdefinitions\PlaceOrderStepDefinitions.class
+utils\DriverManager.class

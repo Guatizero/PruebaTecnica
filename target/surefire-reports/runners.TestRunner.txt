@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 12.59 s <<< FAILURE! -- in runners.TestRunner
+Resgistro usuario.Registro usuario -- Time elapsed: 9.610 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Sign up successful].> but was:<[This user already exist].>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepdefinitions.SignUpStepDefinitions.seCreaElNuevoUsuarioYSeVisualizaUnMensajeSignUpSuccessful(SignUpStepDefinitions.java:62)
+	at ✽.se crea el nuevo usuario y se visualiza un mensaje : Sign up successful.(file:///D:/Sofka/Col/automation_test-colpatria-dev/src/test/resources/features/registro.feature:9)
+
+Resgistro usuario.Ingreso con el usuario creado -- Time elapsed: 1.612 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'que el usuario selecciona SingIn' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Dado("que el usuario selecciona SingIn")
+public void que_el_usuario_selecciona_sing_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
